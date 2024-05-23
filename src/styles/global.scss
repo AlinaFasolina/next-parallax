@@ -78,7 +78,7 @@ summary,
 time,
 mark,
 audio,
-video ,
+video,
 input,
 textarea {
   margin: 0;
@@ -91,7 +91,7 @@ textarea {
 }
 input,
 textarea {
-  outline: none
+  outline: none;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -146,5 +146,3 @@ table {
   background-color: rgba(255, 255, 255, 0.6);
   padding: 20px;
 }
-
-

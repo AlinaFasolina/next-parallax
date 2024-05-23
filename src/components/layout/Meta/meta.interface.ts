@@ -1,5 +1,5 @@
 export interface IMeta {
-  title: string,
-  description?: string,
-  url?: string
+  title: string;
+  description?: string;
+  url?: string;
 }

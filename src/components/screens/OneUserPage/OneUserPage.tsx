@@ -17,7 +17,9 @@ const OneUserPage: FC<IUserSingle> = ({ user }) => {
     >
       <div className={styles["one-user-page__wrapper"]}>
         <div className="content-wrapper">
-          <button className={styles["back-btn"]} onClick={backBtnHandler}>Back</button>
+          <button className={styles["back-btn"]} onClick={backBtnHandler}>
+            Back
+          </button>
           <h1 className="h1-title">{user.name} detailed information</h1>
           <div className={styles["user-info__wrapper"]}>
             <p>

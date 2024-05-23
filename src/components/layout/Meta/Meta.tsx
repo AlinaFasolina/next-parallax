@@ -12,7 +12,7 @@ const Meta: FC<IMeta> = ({ title, description, url }) => {
           <meta name="description" content={description} />
           <meta name="og:title" content={title} />
           <meta name="og:description" content={description} />
-          <meta property="og:url" content={url}/>
+          <meta property="og:url" content={url} />
         </>
       ) : (
         <>

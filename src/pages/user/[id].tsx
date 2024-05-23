@@ -9,7 +9,7 @@ const UserPage: NextPage<IUserSingle> = ({ user }) => {
 
 export const getStaticPaths = async () => {
   const res = await userService.getUsers();
-  const users = res.map(item => ({ params: { id: item.id.toString() } }));
+  const users = res.map((item) => ({ params: { id: item.id.toString() } }));
   return {
     paths: users,
     fallback: "blocking",
