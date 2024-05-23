@@ -1,0 +1,37 @@
+.one-user-page__wrapper {
+  background: url(/nature.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 108px);
+  p {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  span {
+    font-weight: 600;
+  }
+}
+
+.user-info__wrapper {
+  padding: 20px;
+  border: 1px solid #b3b3b3;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.back-btn {
+  color: #000;
+  background: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.4s ease;
+  &:hover {
+    background: rgba(255, 255, 255, 1);
+  }
+}

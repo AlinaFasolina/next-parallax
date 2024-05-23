@@ -1,0 +1,25 @@
+.wrapper {
+  background-image: url("/Scene.png");
+  background-size: cover;
+  background-position: center;
+  width: 3000px;
+  height: 100vh;
+  position: relative;
+}
+
+.sun {
+  position: fixed;
+  top: 65px;
+  left: 40px;
+}
+
+.train {
+  position: absolute;
+  top: 165px;
+}
+
+.cloud {
+  position: absolute;
+  top: 10px;
+  left: 10%;
+}
